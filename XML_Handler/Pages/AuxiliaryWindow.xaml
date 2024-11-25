@@ -1,0 +1,29 @@
+﻿<Window x:Class="XML_Handler.AuxiliaryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XML_Handler"
+        mc:Ignorable="d"
+        Title="auxiliaryWindow" Height="150" Width="50"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        AllowsTransparency="True">
+    <Window.Resources>
+        <Image x:Key="Disabled" Source="/Resources/disabled-90.png" Height="44" VerticalAlignment="Center" Width="40"/>
+        <Image x:Key="Head" Source="/Resources/head2-100.png" Height="37" VerticalAlignment="Center" Width="37"/>
+        <Image x:Key="Settings" Source="/Resources/settings-512.png" Height="27" VerticalAlignment="Center" Width="31"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="disabledBtn" Content="{StaticResource Disabled}" Grid.Row="0" Background="White" BorderBrush="Black" BorderThickness="0,1,1,1" Click="disabledBtn_Click"/>
+        <Button x:Name="headBtn" Content="{StaticResource Head}" Grid.Row="1" Background="Gray" BorderBrush="Black" BorderThickness="1,1,1,1" Click="headBtn_Click"></Button>
+        <Button x:Name="SettingsBtn" Content="{StaticResource Settings}" Grid.Row="2" Background="Gray" BorderBrush="Black" BorderThickness="1,1,1,1" Click="SettingsBtn_Click"></Button>
+
+
+    </Grid>
+</Window>

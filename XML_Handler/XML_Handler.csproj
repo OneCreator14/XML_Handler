@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+
+    <GenerateRuntimeConfigurationFiles>True</GenerateRuntimeConfigurationFiles>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data Formats\**" />
+    <EmbeddedResource Remove="Data Formats\**" />
+    <None Remove="Data Formats\**" />
+    <Page Remove="Data Formats\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\addFile-64.png" />
+    <None Remove="Resources\disabled-100.png" />
+    <None Remove="Resources\disabled-128.png" />
+    <None Remove="Resources\disabled-64.png" />
+    <None Remove="Resources\disabled-90.png" />
+    <None Remove="Resources\gis_logo.ico" />
+    <None Remove="Resources\head1-64.png" />
+    <None Remove="Resources\head2-100.png" />
+    <None Remove="Resources\head2-50.png" />
+    <None Remove="Resources\icon-48.png" />
+    <None Remove="Resources\settings-512.png" />
+    <None Remove="Resources\sport47.png" />
+    <None Remove="xml_handler.db" />
+    <None Remove="XML_Handler.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="3.1.1" />
+    <PackageReference Include="Microsoft-WindowsAPICodePack-Core" Version="1.1.5" />
+    <PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.5" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.10" />
+    <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4797.1004" />
+    <PackageReference Include="MicrosoftOfficeCore" Version="15.0.0" NoWarn="NU1701" />
+    <PackageReference Include="OpenXmlPowerTools" Version="4.5.3.2" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <Resource Include="Resources\addFile-64.png" />
+    <Resource Include="Resources\disabled-100.png" />
+    <Resource Include="Resources\disabled-128.png" />
+    <Resource Include="Resources\disabled-64.png" />
+    <Resource Include="Resources\disabled-90.png" />
+    <Resource Include="Resources\head1-64.png" />
+    <Resource Include="Resources\head2-100.png" />
+    <Resource Include="Resources\head2-50.png" />
+    <Resource Include="Resources\icon-48.png" />
+    <Resource Include="Resources\settings-512.png" />
+  </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="Resources\gis_logo.ico" />
+      <Resource Include="Resources\sport47.png" />
+    </ItemGroup>
+
+</Project>
