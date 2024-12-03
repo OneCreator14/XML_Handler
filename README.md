@@ -13,3 +13,4 @@
     <li>Нажмите "Создать"</li>
   </ul>
 
+<img src="https://github.com/user-attachments/assets/91a77269-1bdf-4633-ba2e-b0a5e054f430" alt="скрин проги">
