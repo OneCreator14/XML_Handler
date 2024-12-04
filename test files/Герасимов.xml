@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ns0:ЭДМСЭ id="13c1584a-fe19-4f99-99fe-0c059eb998ce" region="47" xmlns:mt="http://rosmintrud.ru/mse/mt/2022-10-28" xmlns:ns0="http://rosmintrud.ru/mse/ipra/2022-10-24" xmlns:ut="http://rosmintrud.ru/ut/2022-07-14" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://rosmintrud.ru/mse/ipra/2022-10-24 ../../Схемы/IPRA/ipra_2022-10-24.xsd">
+	    <mt:СтрокаАдреса>188760, Ленинградская обл, Приозерский р-н, Приозерск г, Красноармейская ул, д. 81, кв. 1</mt:СтрокаАдреса>
+
+            <mt:ФИО>
+        	<ut:Фамилия>ГЕРАСИМОВ</ut:Фамилия>
+                <ut:Имя>ВАЛЕРИЙ</ut:Имя>
+                <ut:Отчество>НИКОЛАЕВИЧ</ut:Отчество>                
+            </mt:ФИО>
+            
+            <mt:ДатаРождения>12-05-1985</mt:ДатаРождения>
+
+            <ut:Район>
+                <ut:Название>Приозерский</ut:Название>
+            </ut:Район>
+</ns0:ЭДМСЭ>
